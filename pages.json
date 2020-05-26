@@ -1,0 +1,284 @@
+
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle" : "#ffffff",
+				"onReachBottomDistance": 300
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/phoneLogin/phoneLogin",
+			"style": {
+				"navigationBarTitleText": "登录/注册"
+			}
+		},
+		{
+			"path": "pages/menu/menu",
+			"style": {
+				"navigationBarTitleText": "菜单",
+				"navigationBarTextStyle": "#ffffff",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/cookery/cookery",
+			"style": {
+				"navigationBarTitleText": "食神",
+				"navigationBarTextStyle": "#ffffff",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/group/group",
+			"style": {
+				"navigationBarTitleText": "团购",
+				"navigationBarTextStyle": "#ffffff",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "#ffffff",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "pagesA",
+		"pages": [{
+				"path": "addressList/addressList",
+				"style": {
+					"navigationBarTitleText": "我的地址"
+				}
+			},
+			{
+				"path": "addAddress/addAddress",
+				"style": {
+					"navigationBarTitleText": "添加地址"
+				}
+			},
+			{
+				"path": "proDetails/proDetails",
+				"style": {
+					"navigationBarTitleText": "商品详情"
+				}
+			},
+			{
+				"path": "mineOrder/mineOrder",
+				"style": {
+					"navigationBarTitleText": "我的订单",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "web-view/web-view",
+				"style": {
+					"navigationBarTitleText": "咕咚熊"
+				}
+			},
+			{
+				"path": "groupOrder/groupOrder",
+				"style": {
+					"navigationBarTitleText": "我的团购",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "search/search",
+				"style": {
+					"navigationBarTitleText": "搜索"
+				}
+			},
+			{
+				"path": "setting/setting",
+				"style": {
+					"navigationBarTitleText": "我的设置"
+				}
+			},
+			{
+				"path": "cookeryDetails/cookeryDetails",
+				"style": {
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "firmOrder/firmOrder",
+				"style": {
+					"navigationBarTitleText": "填写订单",
+					"navigationBarTextStyle": "#ffffff"
+				}
+			},
+			{
+				"path": "memberCenter/memberCenter",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": true,
+					"navigationBarTextStyle" : "#ffffff"
+				}
+			}, {
+				"path": "selectAddress/selectAddress",
+				"style": {
+					"navigationBarTitleText": "搜索",
+					"navigationBarTextStyle": "#ffffff"
+				}
+			}
+		]
+	}, {
+		"root": "pagesB",
+		"pages": [
+			{
+				"path": "applyRefund/applyRefund",
+				"style": {
+					"navigationBarTitleText": "申请售后"
+				}
+			}, {
+				"path": "chooseGoods/chooseGoods",
+				"style": {
+					"navigationBarTitleText": "选择商品",
+					"navigationBarTextStyle": "#ffffff"
+				}
+			}, {
+				"path": "message/message",
+				"style": {
+					"navigationBarTitleText": "咕咚熊客服"
+				}
+			}, {
+				"path": "myCookery/myCookery",
+				"style": {
+					"navigationBarTitleText": "关注食谱",
+					"navigationBarTextStyle": "#ffffff"
+				}
+			}, {
+				"path": "orderDetails/orderDetails",
+				"style": {
+					"navigationBarTitleText": "订单详情",
+					"navigationBarTextStyle": "#ffffff"
+				}
+			}, {
+				"path": "payState/payState",
+				"style": {
+					"navigationBarTitleText": "支付成功"
+				}
+			}, {
+				"path": "releaseComment/releaseComment",
+				"style": {
+					"navigationBarTitleText": "发表评价"
+				}
+			}, {
+				"path": "share_code/share_code",
+				"style": {
+					"navigationBarTitleText": "分享二维码",
+					"backgroundColor": "#FF303B",
+					"navigationBarTextStyle": "#ffffff"
+				}
+			}, {
+				"path": "coupon/coupon",
+				"style": {
+					"navigationBarTitleText": "优惠券"
+				}
+			}, {
+			    "path" : "myPoints/myPoints",
+			    "style" : {
+			        "navigationBarTitleText" : "我的积分"
+			    }
+			}, {
+				"path": "openMap/openMap",
+				"style": {
+					"navigationBarTitleText": "选择收货地址"
+				}
+			}, {
+				"path": "follow/follow",
+				"style": {
+					"navigationBarTitleText": "关注商品"
+				}
+			}, {
+				"path": "refund/refund",
+				"style": {
+					"navigationBarTitleText": "退款/售后"
+				}
+			}, {
+				"path": "comment/comment",
+				"style": {
+					"navigationBarTitleText": "商品评价"
+				}
+			},
+			{
+				"path": "commentCenter/commentCenter",
+				"style": {
+					"navigationBarTitleText": "评价中心"
+				}
+			}, {
+					"path" : "pointsDetail/pointsDetail",
+					"style" : {
+						"navigationBarTitleText": "积分明细"
+					}
+			}
+		]
+	}],
+	"easycom": {
+		"^u-(.*)": "@/components/uview-ui/components/u-$1/u-$1.vue",
+		"fly-cart": "@/components/ar-flyCart/flyInCart.vue"
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#373737",
+		"selectedColor": "#40b3ff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab/homeIcon.png",
+				"selectedIconPath": "static/tab/homeIcon.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/menu/menu",
+				"iconPath": "static/tab/menu.png",
+				"selectedIconPath": "static/tab/menuActive.png",
+				"text": "菜单"
+			},
+			{
+				"pagePath": "pages/cookery/cookery",
+				"iconPath": "static/tab/cookery.png",
+				"selectedIconPath": "static/tab/cookeryActive.png",
+				"text": "食神"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/tab/group.png",
+				"selectedIconPath": "static/tab/groupActive.png",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tab/mine.png",
+				"selectedIconPath": "static/tab/mineActive.png",
+				"text": "我的"
+			}
+		]
+	}
+}
